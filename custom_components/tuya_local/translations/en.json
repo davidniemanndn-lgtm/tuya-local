@@ -624,6 +624,9 @@
             },
             "snooze_duration": {
                 "name": "Snooze duration"
+            },
+            "hysteresis": {
+                "name": "Hysteresis"
             }
         },
         "select": {
@@ -1195,6 +1198,14 @@
                     "12_hour": "12 hour",
                     "24_hour": "24 hour"
                 }
+            },
+            "schedule": {
+                "name": "Schedule",
+                "state": {
+                    "5_2": "Week+Weekend",
+                    "6_1": "Mon-Sat+Sun",
+                    "7": "Daily"
+                }
             }
         },
         "sensor": {
@@ -1409,6 +1420,15 @@
                     "full": "Full",
                     "foreign_object_detected": "Foreign object detected"
                 }
+            },
+            "minimum_temperature": {
+                "name": "Minimum temperature"
+            },
+            "maximum_temperature": {
+                "name": "Maximum temperature"
+            },
+            "floor_temperature": {
+                "name": "Floor temperature"
             }
         },
         "switch": {
@@ -1552,6 +1572,12 @@
             },
             "station_list": {
                 "name": "Station list"
+            },
+            "schedule_base64": {
+                "name": "Schedule (Base64)"
+            },
+            "backlight_base64": {
+                "name": "Backlight (Base64)"
             }
         },
         "time": {
