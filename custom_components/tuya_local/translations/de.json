@@ -624,6 +624,9 @@
             },
             "snooze_duration": {
                 "name": "Schlummerdauer"
+            },
+            "hysteresis": {
+                "name": "Schalthysterese"
             }
         },
         "select": {
@@ -1195,6 +1198,14 @@
                     "12_hour": "12 Stunden",
                     "24_hour": "24 Stunden"
                 }
+            },
+            "schedule": {
+                "name": "Zeitplan",
+                "state": {
+                    "5_2": "Woche+Wochenende",
+                    "6_1": "Mo.-Sa.+So.",
+                    "7": "täglich"
+                }
             }
         },
         "sensor": {
@@ -1409,8 +1420,17 @@
                     "full": "Voll",
                     "foreign_object_detected": "Fremdkörper erkannt"
                 }
+            },
+            "minimum_temperature": {
+                "name": "Minimale Temperatur"
+            },
+            "maximum_temperature": {
+                "name": "Maximale Temperatur"
+            },
+            "floor_temperature": {
+                "name": "Bodentemperatur"
             }
-        },
+    },
         "switch": {
             "timer": {
                 "name": "Timer"
@@ -1552,6 +1572,12 @@
             },
             "station_list": {
                 "name": "Senderliste"
+            },
+            "schedule_base64": {
+                "name": "Zeitplan (Base64)"
+            },
+            "backlight_base64": {
+                "name": "Hintergrundbeleuchtung (Base64)"
             }
         },
         "time": {
