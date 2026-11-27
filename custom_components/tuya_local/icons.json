@@ -492,6 +492,9 @@
             },
             "snooze_duration": {
                 "default": "mdi:alarm-snooze"
+            },
+            "hysteresis": {
+                "default": "mdi:thermometer-lines"
             }
         },
         "select": {
@@ -795,6 +798,9 @@
             },
             "snooze_action": {
                 "default": "mdi:alarm-snooze"
+            },
+            "schedule": {
+                "default": "mdi:calendar-clock"
             }
         },
         "sensor": {
@@ -969,6 +975,15 @@
             },
             "active_lights": {
                 "default": "mdi:lightbulb-group"
+            },
+            "minimum_temperature": {
+                "default": "mdi:thermometer-chevron-down"
+            },
+            "maximum_temperature": {
+                "default": "mdi:thermometer-chevron-up"
+            },
+            "floor_temperature": {
+                "default": "mdi:thermometer-lines"
             }
         },
         "siren": {
@@ -1126,6 +1141,12 @@
             },
             "station_list": {
                 "default": "mdi:playlist-music"
+            },
+            "schedule_base64": {
+                "default": "mdi:calendar-clock"
+            },
+            "backlight_base64": {
+                "default": "mdi:brightness-4"
             }
         },
         "time": {
